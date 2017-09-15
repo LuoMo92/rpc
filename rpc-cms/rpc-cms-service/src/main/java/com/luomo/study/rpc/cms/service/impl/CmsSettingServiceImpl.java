@@ -14,14 +14,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
 * CmsSettingService实现
-* Created by luomo on 2017/9/14.
+* Created by luomo on 2017/9/15.
 */
 @Service
 @Transactional
 @BaseService
 public class CmsSettingServiceImpl extends BaseServiceImpl<CmsSettingMapper, CmsSetting, CmsSettingExample> implements CmsSettingService {
 
-    private static Logger _log = LoggerFactory.getLogger(CmsSettingServiceImpl.class);
+    private static Logger logger = LoggerFactory.getLogger(CmsSettingServiceImpl.class);
 
     @Autowired
     CmsSettingMapper cmsSettingMapper;

@@ -14,14 +14,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
 * CmsArticleService实现
-* Created by luomo on 2017/9/14.
+* Created by luomo on 2017/9/15.
 */
 @Service
 @Transactional
 @BaseService
 public class CmsArticleServiceImpl extends BaseServiceImpl<CmsArticleMapper, CmsArticle, CmsArticleExample> implements CmsArticleService {
 
-    private static Logger _log = LoggerFactory.getLogger(CmsArticleServiceImpl.class);
+    private static Logger logger = LoggerFactory.getLogger(CmsArticleServiceImpl.class);
 
     @Autowired
     CmsArticleMapper cmsArticleMapper;

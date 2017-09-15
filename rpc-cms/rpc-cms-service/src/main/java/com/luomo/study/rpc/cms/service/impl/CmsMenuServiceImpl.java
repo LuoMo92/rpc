@@ -14,14 +14,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
 * CmsMenuService实现
-* Created by luomo on 2017/9/14.
+* Created by luomo on 2017/9/15.
 */
 @Service
 @Transactional
 @BaseService
 public class CmsMenuServiceImpl extends BaseServiceImpl<CmsMenuMapper, CmsMenu, CmsMenuExample> implements CmsMenuService {
 
-    private static Logger _log = LoggerFactory.getLogger(CmsMenuServiceImpl.class);
+    private static Logger logger = LoggerFactory.getLogger(CmsMenuServiceImpl.class);
 
     @Autowired
     CmsMenuMapper cmsMenuMapper;

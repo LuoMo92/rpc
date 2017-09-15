@@ -14,14 +14,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
 * CmsTopicService实现
-* Created by luomo on 2017/9/14.
+* Created by luomo on 2017/9/15.
 */
 @Service
 @Transactional
 @BaseService
 public class CmsTopicServiceImpl extends BaseServiceImpl<CmsTopicMapper, CmsTopic, CmsTopicExample> implements CmsTopicService {
 
-    private static Logger _log = LoggerFactory.getLogger(CmsTopicServiceImpl.class);
+    private static Logger logger = LoggerFactory.getLogger(CmsTopicServiceImpl.class);
 
     @Autowired
     CmsTopicMapper cmsTopicMapper;
