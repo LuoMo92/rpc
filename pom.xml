@@ -12,6 +12,7 @@
         <module>rpc-common</module>
         <module>rpc-upms</module>
         <module>rpc-cms</module>
+        <module>rpc-admin</module>
     </modules>
 
 
